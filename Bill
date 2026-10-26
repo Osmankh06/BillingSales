@@ -4,13 +4,13 @@ public class ItemBill {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
  
-      System.out.print("Enter the price of item 1: ");
+      System.out.print("Enter the price of item one: ");
        double item1 = input.nextDouble();
  
-      System.out.print("Enter the price of item 2: ");
+      System.out.print("Enter the price of item two: ");
        double item2 = input.nextDouble();
  
-      System.out.print("Enter the price of item 3: ");
+      System.out.print("Enter the price of item three: ");
        double item3 = input.nextDouble();
  
        double total = item1 + item2 + item3;
